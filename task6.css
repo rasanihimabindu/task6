@@ -1,0 +1,40 @@
+
+body{
+  margin: 20px;
+  padding: 0;
+  background: linear-gradient(to top, #232526, #414345); 
+  height: 100vh;
+
+}
+.container{
+  background-color: #fff;
+  max-width:1000px;
+  margin: auto;
+  /* margin-top:40px; */
+  height: 95vh;
+  border: 1px solid coral;
+  
+  
+}
+
+.main_img img{
+  width: 100%;
+  max-height:580px;
+
+
+  
+}
+.imgs img{
+  width: 100%;
+  cursor: pointer;
+  max-height:150px;
+  border: 1px solid coral;
+}
+.imgs{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+#selected{
+  opacity:0.7;
+}
